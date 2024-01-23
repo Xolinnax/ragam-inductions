@@ -11,14 +11,14 @@ function App()
 {
   return (
     <div className="App">
-        <Header />
             <BrowserRouter>
+                <Header />
                 <Routes path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path="/contact" element={<Contact />} />
-                </Routes>
+                </Routes>       
+            <Footer />
             </BrowserRouter>
-        <Footer />
     </div>
   );
 }
