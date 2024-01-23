@@ -1,0 +1,101 @@
+.joinContainer
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:80vh;
+}
+
+.join
+{
+    gap:10%;
+    display:flex;
+    height:57%;
+    width:78%;
+    padding-bottom:10%;
+}
+
+.joinContent
+{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.joinHeader
+{
+    color: #000;
+    font-family: "IBM Plex Serif";
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom:1%;
+}
+
+.joinDesc
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.joinList
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.emailContainer
+{
+    display:flex;
+    align-items:flex-end;
+}
+
+@media screen and (max-width:1150px)
+{
+    .joinContainer
+    {
+        height:90vh;
+    }
+
+    .join
+    {
+        flex-direction: column;
+    }
+
+    .joinContent
+    {
+        text-align:center;
+        gap:10%;
+    }
+}
+
+@media screen and (max-width:800px)
+{
+    
+    .joinHeader
+    {
+        font-size:1.8rem;
+    }
+
+    .joinDesc
+    {
+        font-size:0.8rem;
+        line-height:1.3rem;
+    }
+
+    .joinList
+    {
+        font-size:0.8rem;
+        line-height:1.3rem;
+    }
+}

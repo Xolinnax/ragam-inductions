@@ -1,0 +1,107 @@
+.footer
+{
+    padding-top:2.5vh;
+    padding-bottom:2.5vh;
+    height:50vh;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:5%;
+}
+
+.footerLogos
+{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    gap:3%;
+}
+
+.NITCLogo
+{
+    height:8.8rem;
+}
+
+.RagamLogo
+{
+    height:3.6rem;
+}
+
+.socials
+{
+    display:flex;
+    width:100%;
+    gap:3%;
+    justify-content: center;
+}
+
+.socialSVG
+{
+    height:4rem;
+}
+
+.address
+{
+    width:100%;
+    text-align: center;
+}
+
+.address-1
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom:0.5%;
+}
+
+.address-2
+{
+    color: #000;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom:0.3%;
+}
+
+
+@media screen and (max-width:800px)
+{
+    .footer
+    {
+        height:30vh;
+    }
+
+    .NITCLogo
+    {
+        height:5rem;  
+    }
+    
+    .RagamLogo
+    {
+        height:2rem;
+    }
+
+    .socialSVG
+    {
+        height:2.5rem;
+    }
+
+    .address-1
+    {
+        font-size:0.8rem;
+    }
+
+    .address-2
+    {
+        font-size:0.7rem;
+    }
+}

@@ -1,0 +1,78 @@
+.contactMethod
+{
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    width:350px;
+    height:330px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactMethodLogo
+{
+    height:6rem;
+    margin-bottom:1rem;
+}
+
+.contactMethodTitle
+{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom:1.5rem;
+    letter-spacing: 4px;
+}
+
+.contactMethodDetails
+{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width:95%;
+}
+
+@media screen and (max-width:1550px)
+{
+    .contactMethod
+    {
+        width:280px;
+        height:250px;
+    }
+
+    .contactMethodLogo
+    {
+        height:4rem;
+    }
+
+    .contactMethodTitle
+    {
+        font-size:0.9rem;
+    }
+
+    .contactMethodDetails
+    {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:1100px)
+{
+    .contactMethod
+    {
+        margin-bottom: 2%;
+    }
+}
