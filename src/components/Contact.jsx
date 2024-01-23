@@ -21,7 +21,7 @@ export default function Contact()
             <div className="contactMethods">
                 <motion.div
                     initial={{opacity:0,y:200}}
-                    whileInView={{opacity:1,y:0}}
+                    animate={{opacity:1,y:0}}
                     transition={{delay:0.8,duration:1}}
                 >
                     <ContactMethod
@@ -33,7 +33,7 @@ export default function Contact()
                 </motion.div>
                 <motion.div
                     initial={{opacity:0,y:200}}
-                    whileInView={{opacity:1,y:0}}
+                    animate={{opacity:1,y:0}}
                     transition={{delay:1.6,duration:1}}
                 >
                     <ContactMethod
@@ -45,7 +45,7 @@ export default function Contact()
                 </motion.div>
                 <motion.div
                     initial={{opacity:0,y:200}}
-                    whileInView={{opacity:1,y:0}}
+                    animate={{opacity:1,y:0}}
                     transition={{delay:2.4,duration:1}}
                 >
                     <ContactMethod

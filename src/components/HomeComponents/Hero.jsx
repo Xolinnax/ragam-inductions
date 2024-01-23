@@ -14,7 +14,8 @@ export default function Hero()
                 style={{
                 transform: isInView ? "none" : "translateX(-200px)",
                 opacity: isInView ? 1 : 0,
-                transition: "1s"
+                transition: "1s",
+                delay: "1s"
                 }}
             >
             <div className="hero">
